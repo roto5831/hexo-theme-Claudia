@@ -72,6 +72,12 @@
                     <%- theme.user_location %>
                 </p>
                 <%}%>
+                <div class = "author_description" style="text-align: left;">
+                    <p>iOSの開発がメインのお仕事</p>
+                    <p>めがねの国内生産シェア9割を誇る福井県鯖江市出身</p>
+                    <p>コンタクト派</p>
+                    <p></p>
+                </div>
             </section>
         </div>
         <div class="top-line">
@@ -156,7 +162,7 @@
         </div>
     </div>
     <div class="content-box">
-        <!--post数量和tag category 数量-->
+        <!-- post数量和tag category 数量 -->
         <div class="site-box is-flex">
             <div class="flex-1 is-flex flex-column center full-height right-line">
                 <strong><%- site.posts.length || ''%></strong>
@@ -168,6 +174,9 @@
             </div>
         </div>
     </div>
+    <div class="content-box" style="height:200px">
+    </div>
+    <!-- 
     <div id='tag_cloud' class="content-inner content-box">
         <div class="has-text-centered">
             <strong>Tags</strong>
@@ -197,5 +206,5 @@
         <div class="content-inner">
             <%- list_archives(site.archives,{}) %>
         </div>
-    </div>
+    </div> -->
 </aside>
